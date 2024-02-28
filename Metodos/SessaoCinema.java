@@ -1,8 +1,16 @@
 public class SessaoCinema {
     String filme;
     String horario;
-    int capacidadeTotal, ingressosVendidos;
+    int capacidadeTotal;
+    int ingressosVendidos;
 
+    // Construtor
+    SessaoCinema(String filme, String horario, int capacidadeTotal, int ingressosVendidos) {
+        this.filme = filme;
+        this.horario = horario;
+        this.capacidadeTotal = capacidadeTotal;
+        this.ingressosVendidos = ingressosVendidos;
+    }
 
     void exibirInfoSessao() {
         System.out.println("Filme: " + filme);

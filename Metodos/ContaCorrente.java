@@ -3,6 +3,13 @@ public class ContaCorrente {
     double saldo;
     String nomeDoTitular;
 
+    // Atualizacao do codigo, agora com metodo construtor
+    ContaCorrente(String numeroDaConta, String nomeDoTitular,double saldo) {
+        this.numeroDaConta = numeroDaConta;
+        this.nomeDoTitular = nomeDoTitular;
+        this.saldo = saldo;
+    }
+
     void depositar(double valor) {
         saldo += valor;
     }

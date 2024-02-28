@@ -3,6 +3,13 @@ public class ProdutoEstoque {
     int quantidade;
     double precoUnitario;
 
+    // Construtor
+    ProdutoEstoque(String nome, int quantidade, double precoUnitario) {
+        this.nome = nome;
+        this.quantidade = quantidade;
+        this.precoUnitario = precoUnitario;
+    }
+
     void exibirProduto() {
         System.out.println("Nome do produto: " + nome);
         System.out.println("Estoque do produto: " + quantidade + " unidades");

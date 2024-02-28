@@ -3,6 +3,13 @@ public class Tarefa {
     boolean concluida;
     int prioridade;
 
+    // Construtor
+    Tarefa(String descricao, boolean concluida, int prioridade) {
+        this.descricao = descricao;
+        this.concluida = concluida;
+        this.prioridade = prioridade;
+    }
+
     void exibirTarefa() {
         System.out.println("Descrição: " + descricao);
         System.out.println("Situação: " + (concluida ? "Concluída" : "Pendente")); 

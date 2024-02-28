@@ -1,6 +1,16 @@
 public class Curso {
-    String nome, categoria;
-    int cargaHoraria, numeroDeAlunosInscritos;
+    String nome;
+    String categoria;
+    int cargaHoraria;
+    int numeroDeAlunosInscritos;
+
+    // Construtor
+    Curso(String nome, String categoria, int cargaHoraria, int numeroDeAlunosInscritos) {
+        this.nome = nome;
+        this.categoria = categoria;
+        this.cargaHoraria = cargaHoraria;
+        this.numeroDeAlunosInscritos = numeroDeAlunosInscritos;
+    }
 
     void exibirInformacoes() {
         System.out.println("Nome do Curso: " + nome);

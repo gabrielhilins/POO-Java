@@ -1,5 +1,14 @@
 public class AgendaTelefonica {
-    String nome, telefone, email;
+    String nome;
+    String telefone;
+    String email;
+
+    // Construtor
+    AgendaTelefonica(String nome, String telefone, String email) {
+        this.nome = nome;
+        this.telefone = telefone;
+        this.email = email;
+    }
 
     void exibirContato() {
         System.out.println("Nome: " + nome);

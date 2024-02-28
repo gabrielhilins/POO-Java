@@ -1,8 +1,14 @@
-import java.util.ArrayList;
-
 public class Transacao {
-    String descricao, tipo;
+    String descricao;
+    String tipo;
     double valor;
+
+    //Construtor
+    Transacao(String descricao, String tipo, double valor) {
+        this.descricao = descricao;
+        this.tipo = tipo;
+        this.valor = valor;
+    }
 
     void exibirtransacao() {
         System.out.println("Descrição da Transação: " + descricao);
