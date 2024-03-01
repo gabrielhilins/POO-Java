@@ -51,7 +51,7 @@ public class AppAgendaTelefonica {
 
         // Verificação e interação com o contato2
         if (contato2.validarEmail() && contato2.validarTelefone()) {
-            System.out.println("Detalhes do Contato do(a) + " + contato2.nome + ":");
+            System.out.println("Detalhes do Contato do(a) " + contato2.nome + ":");
             contato2.exibirContato();
             System.out.println();
 

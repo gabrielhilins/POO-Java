@@ -1,4 +1,7 @@
 # Programação Orientada a Objetos com Java
+## Object Oriented Programming with Java
+
+[English version of this repository](https://github.com/gabrielhilins/OOP-Java)
 
 ## Sobre o Repositório
 - Este repositório contém diversos programas utilizando conhecimentos de **Programação Orientada à Objetos**, utilizando a linguagem de programação **Java**.
