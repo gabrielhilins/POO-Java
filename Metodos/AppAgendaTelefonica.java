@@ -46,17 +46,17 @@ public class AppAgendaTelefonica {
                     break;
             }
         } else {
-            System.out.println("Informações do Contato do(a) " + contato1.nome +  " inválidas! Tente Novamente");
+            System.out.println("Informações do Contato do(a) " + contato1.getNome() +  " inválidas! Tente Novamente");
         }
 
         // Verificação e interação com o contato2
         if (contato2.validarEmail() && contato2.validarTelefone()) {
-            System.out.println("Detalhes do Contato do(a) " + contato2.nome + ":");
+            System.out.println("Detalhes do Contato do(a) " + contato2.getNome() + ":");
             contato2.exibirContato();
             System.out.println();
 
             // Lógica de interação com o contato2
-            System.out.println("Escolha uma opção para o Contato do(a) " + contato2.nome + ":");
+            System.out.println("Escolha uma opção para o Contato do(a) " + contato2.getNome() + ":");
             System.out.println("1) Alterar Email");
             System.out.println("2) Alterar Telefone");
             System.out.println("3) Sair do Programa");
@@ -87,17 +87,17 @@ public class AppAgendaTelefonica {
                     break;
             }
         } else {
-            System.out.println("Informações do(a) " + contato2.nome + " inválidas! Tente Novamente");
+            System.out.println("Informações do(a) " + contato2.getNome() + " inválidas! Tente Novamente");
         }
 
         // Verificação e interação com o contato3
         if (contato3.validarEmail() && contato3.validarTelefone()) {
-            System.out.println("Detalhes do Contato do(a) " + contato3.nome + ":");
+            System.out.println("Detalhes do Contato do(a) " + contato3.getNome() + ":");
             contato3.exibirContato();
             System.out.println();
 
             // Lógica de interação com o contato3
-            System.out.println("Escolha uma opção para o Contato do(a)" + contato3.nome + ":");
+            System.out.println("Escolha uma opção para o Contato do(a)" + contato3.getNome() + ":");
             System.out.println("1) Alterar Email");
             System.out.println("2) Alterar Telefone");
             System.out.println("3) Sair do Programa");
@@ -128,7 +128,7 @@ public class AppAgendaTelefonica {
                     break;
             }
         } else {
-            System.out.println("Informações do Contato do(a) " + contato3.nome +  "inválidas! Tente Novamente");
+            System.out.println("Informações do Contato do(a) " + contato3.getNome() +  "inválidas! Tente Novamente");
         }
     }
 }
