@@ -1,7 +1,7 @@
 public class ProdutoEstoque {
-    String nome;
-    int quantidade;
-    double precoUnitario;
+    private String nome;
+    private int quantidade;
+    private double precoUnitario;
 
     // Construtor
     ProdutoEstoque(String nome, int quantidade, double precoUnitario) {
@@ -38,5 +38,27 @@ public class ProdutoEstoque {
         } else {
             return precoUnitario;
         }
+    }
+
+    // Getters
+    public String getNome() {
+        return this.nome;
+    }
+    public int getQuantidade() {
+        return this.quantidade;
+    }
+    public double getPrecoUnitario() {
+        return this.precoUnitario;
+    }
+
+    // Setters
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+    public void setPrecoUnitario(double precoUnitario) {
+        this.precoUnitario = precoUnitario;
     }
 }

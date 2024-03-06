@@ -1,7 +1,7 @@
 public class ContaCorrente {
-    String numeroDaConta;
-    double saldo;
-    String nomeDoTitular;
+    private String numeroDaConta;
+    private double saldo;
+    private String nomeDoTitular;
 
     // Atualizacao do codigo, agora com metodo construtor
     ContaCorrente(String numeroDaConta, String nomeDoTitular,double saldo) {
@@ -31,4 +31,27 @@ public class ContaCorrente {
         }
         
     }
+
+    // Getters
+    public String getNumeroDaConta() {
+        return this.numeroDaConta;
+    }
+    public double getSaldo() {
+        return this.saldo;
+    }
+    public String getNomeDoTitular() {
+        return this.nomeDoTitular;
+    }
+
+    // Setters
+    public void setNumeroDaConta(String numeroDaConta) {
+        this.numeroDaConta = numeroDaConta;
+    }
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+    public void setNomeDoTitular(String nomeDoTitular) {
+        this.nomeDoTitular = nomeDoTitular;
+    }
+
 }

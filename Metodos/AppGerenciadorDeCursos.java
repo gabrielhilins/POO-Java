@@ -49,26 +49,26 @@ public class AppGerenciadorDeCursos {
 
                 switch (opcaoCurso) {
                     case 10:
-                        System.out.println("Quantos alunos deseja adicionar em " + curso1 + "?");
+                        System.out.println("Quantos alunos deseja adicionar em " + curso1.getNome() + "?");
                         int adicional = dado.nextInt();
                         curso1.aumentaAlunos(adicional);
-                        curso1.exibirInformacoes();
+                        curso1.exibirInformacoesNovosAlunos();
                         System.out.println();
                         
                     break;
                     case 20:
-                        System.out.println("Quantos alunos deseja adicionar em " + curso2 + "?");
+                        System.out.println("Quantos alunos deseja adicionar em " + curso2.getNome() + "?");
                         int adicional2 = dado.nextInt();
                         curso2.aumentaAlunos(adicional2);
-                        curso2.exibirInformacoes();
+                        curso2.exibirInformacoesNovosAlunos();
                         System.out.println();
                     
                     break;
                     case 30:
-                        System.out.println("Quantos alunos deseja adicionar em " + curso3 + "?");
+                        System.out.println("Quantos alunos deseja adicionar em " + curso3.getNome() + "?");
                         int adicional3 = dado.nextInt();
                         curso3.aumentaAlunos(adicional3);
-                        curso3.exibirInformacoes();
+                        curso3.exibirInformacoesNovosAlunos();
                         System.out.println();
                     
                     break;
@@ -117,7 +117,7 @@ public class AppGerenciadorDeCursos {
                     }
                 break;
                 case 3:
-                System.out.println("Em qual curso deseja realizar o aumento de alunos?");
+                System.out.println("Em qual curso deseja atualizar a carga horária?");
                 System.out.println("10) Sistemas pra Internet");
                 System.out.println("20) Arquitetura e Urbanismo");
                 System.out.println("30) Medicina");
@@ -129,14 +129,14 @@ public class AppGerenciadorDeCursos {
                     System.out.println("Digite a nova Carga Horária do Curso:");
                     int novaCargaHoraria = dado.nextInt();
                     curso1.atualizarCargaHoraria(novaCargaHoraria);
-                    curso1.exibirInformacoes();
+                    curso1.exibirInformacoesNovaCargaHoraria();
                     System.out.println();
                         break;
                     case 20:
                         System.out.println("Digite a nova Carga Horária do Curso:");
                         int novaCargaHoraria2 = dado.nextInt();
                         curso2.atualizarCargaHoraria(novaCargaHoraria2);
-                        curso2.exibirInformacoes();
+                        curso2.exibirInformacoesNovaCargaHoraria();
                         System.out.println();
                         
                         break;
@@ -145,7 +145,7 @@ public class AppGerenciadorDeCursos {
                     System.out.println("Digite a nova Carga Horária do Curso:");
                     int novaCargaHoraria3 = dado.nextInt();
                     curso3.atualizarCargaHoraria(novaCargaHoraria3);
-                    curso3.exibirInformacoes();
+                    curso3.exibirInformacoesNovaCargaHoraria();
                     System.out.println();
                         break;
                 

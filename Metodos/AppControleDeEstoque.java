@@ -42,57 +42,61 @@ public class AppControleDeEstoque {
 
         switch (opcao) {
             case 1:
-                System.out.println("Quantas unidades de AppleWatch Series 5 deseja adicionar ao estoque?");
+                System.out.println("Quantas unidades de " + produto1.getNome() + " deseja adicionar ao estoque?");
                 int adicional1 = dado.nextInt();
                 produto1.adicionarEstoque(adicional1);
                 produto1.exibirProduto();
                 System.out.println();
 
-                System.out.println("Quantas unidades de Iphone 13 deseja adicionar ao estoque?");
+                System.out.println("Quantas unidades de " + produto2.getNome() + " deseja adicionar ao estoque?");
                 int adicional2 = dado.nextInt();
                 produto2.adicionarEstoque(adicional2);
                 produto2.exibirProduto();
                 System.out.println();
 
-                System.out.println("Quantas unidades Macbook Air deseja adicionar ao estoque?");
+                System.out.println("Quantas unidades de " + produto3.getNome() + " deseja adicionar ao estoque?");
                 int adicional3 = dado.nextInt();
                 produto3.adicionarEstoque(adicional3);
                 produto3.exibirProduto();
                 System.out.println();
                 break;
             case 2:
-                System.out.println("Quantas unidades do produto (AppleWatch Series 5) deseja remover do estoque?");
+                System.out.println("Quantas unidades do produto " + produto1.getNome() + "deseja remover do estoque?");
                 int remocao1 = dado.nextInt();
                 produto1.removerEstoque(remocao1);
                 produto1.exibirProduto();
                 System.out.println();
                 
-                System.out.println("Quantas unidades do produto (Iphone 13 ) deseja remover do estoque?");
+                
+                System.out.println("Quantas unidades do produto " + produto2.getNome() + "deseja remover do estoque?");
                 int remocao2 = dado.nextInt();
                 produto2.removerEstoque(remocao2);
                 produto2.exibirProduto();
                 System.out.println();
                 
-                System.out.println("Quantas unidades do produto (Macbook Air) deseja remover do estoque?");
+                
+                System.out.println("Quantas unidades do produto " + produto3.getNome() + "deseja remover do estoque?");
                 int remocao3 = dado.nextInt();
                 produto3.removerEstoque(remocao3);
                 produto3.exibirProduto();
                 System.out.println();
                 break;
             case 3:
-                System.out.println("Qual é o novo preço do Produto (SmartWartch Series 5) ?");
+                System.out.println("Qual é o novo preço do Produto " + produto1.getNome() + "?");
                 double novoPreco1 = dado.nextDouble();
                 produto1.atualizarPreco(novoPreco1);
                 produto1.exibirProduto();
                 System.out.println();
-
-                System.out.println("Qual é o novo preço do Produto (Iphone 13) ?");
+                
+                
+                System.out.println("Qual é o novo preço do Produto " + produto2.getNome() + "?");
                 double novoPreco2 = dado.nextDouble();
                 produto1.atualizarPreco(novoPreco2);
                 produto1.exibirProduto();
                 System.out.println();
-
-                System.out.println("Qual é o novo preço do Produto (Macbook Air) ?");
+                
+                
+                System.out.println("Qual é o novo preço do Produto " + produto3.getNome() + "?");
                 double novoPreco3 = dado.nextDouble();
                 produto1.atualizarPreco(novoPreco3);
                 produto1.exibirProduto();
