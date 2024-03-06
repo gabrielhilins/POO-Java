@@ -1,3 +1,4 @@
+package GerenciadorFinanceiro;
 import java.util.Scanner;
 public class AppGerenciadorFinanceiro {
     public static void main(String[] args) {

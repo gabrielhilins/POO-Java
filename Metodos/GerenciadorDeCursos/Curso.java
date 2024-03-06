@@ -1,3 +1,4 @@
+package GerenciadorDeCursos;
 public class Curso {
     private String nome;
     private String categoria;

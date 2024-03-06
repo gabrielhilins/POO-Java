@@ -1,3 +1,4 @@
+package GerenciadorDeCursos;
 import java.util.Scanner;
 public class AppGerenciadorDeCursos {
     public static void main(String[] args) {

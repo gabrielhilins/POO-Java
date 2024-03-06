@@ -1,5 +1,5 @@
+package AgendaTelefonica;
 import java.util.Scanner;
-
 public class AppAgendaTelefonica {
     public static void main(String[] args) {
         Scanner dado = new Scanner(System.in);

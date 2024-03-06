@@ -1,7 +1,8 @@
+package MonitorAtividadesFisicas;
 public class AtividadeFisica {
-    String tipoDeExercicio;
-    int duracao;
-    int caloriasQueimadas;
+    private String tipoDeExercicio;
+    private int duracao;
+    private int caloriasQueimadas;
 
     // Construtor
     public AtividadeFisica(String tipoDeExercicio, int duracao) {
@@ -77,6 +78,28 @@ public class AtividadeFisica {
             // Nesse caso, imprime uma mensagem indicando que as duas atividades queimaram a mesma quantidade de calorias
             System.out.println("Ambas as atividades queimaram a mesma quantidade de calorias.");
         }
+    }
+
+    // Getters
+    public String getTipoDeExercicio() {
+        return this.tipoDeExercicio;
+    }
+    public int getDuracao() {
+        return this.duracao;
+    }
+    public int getCaloriasQueimadas() {
+        return this.caloriasQueimadas;
+    }
+
+    // Setters
+    public void setTipoDeExercicio(String tipoDeExercicio) {
+        this.tipoDeExercicio = tipoDeExercicio;
+    }
+    public void setDuracao(int duracao) {
+        this.duracao = duracao;
+    }
+    public void setTCaloriasQueimadas(int caloriasQueimadas) {
+        this.caloriasQueimadas = caloriasQueimadas;
     }
     
 }

@@ -1,3 +1,4 @@
+package ControleDeEstoque;
 public class ProdutoEstoque {
     private String nome;
     private int quantidade;

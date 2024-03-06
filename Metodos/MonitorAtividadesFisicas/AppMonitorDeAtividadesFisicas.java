@@ -1,3 +1,4 @@
+package MonitorAtividadesFisicas;
 import java.util.Scanner;
 public class AppMonitorDeAtividadesFisicas {
     public static void main(String[] args) {

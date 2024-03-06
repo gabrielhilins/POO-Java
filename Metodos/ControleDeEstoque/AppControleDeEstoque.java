@@ -1,3 +1,4 @@
+package ControleDeEstoque;
 import java.util.Scanner;
 public class AppControleDeEstoque {
     public static void main(String[] args) {

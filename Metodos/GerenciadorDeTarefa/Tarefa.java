@@ -1,7 +1,8 @@
+package GerenciadorDeTarefa;
 public class Tarefa {
-    String descricao;
-    boolean concluida;
-    int prioridade;
+    private String descricao;
+    private boolean concluida;
+    private int prioridade;
 
     // Construtor
     Tarefa(String descricao, boolean concluida, int prioridade) {
@@ -44,6 +45,28 @@ public class Tarefa {
         
         return prioridade;
     }
+
+      // Getters
+      public String getDescricao() {
+        return this.descricao;
+      }
+      public boolean getConcluida() {
+        return this.concluida;
+      }
+      public int getPrioridade() {
+        return this.prioridade;
+      }
+
+      // Setters
+      public void setDescricao(String descricao) {
+        this.descricao = descricao;
+      }
+      public void setConcluida(boolean concluida) {
+        this.concluida = concluida;
+      }
+      public void setPrioridade(int prioridade) {
+        this.prioridade = prioridade;
+      }
 
 
 }

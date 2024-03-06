@@ -1,3 +1,4 @@
+package BancoDigital;
 public class ContaCorrente {
     private String numeroDaConta;
     private double saldo;
