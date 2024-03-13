@@ -6,7 +6,16 @@
 ## Sobre o Repositório
 - Este repositório contém diversos programas utilizando conhecimentos de **Programação Orientada à Objetos**, utilizando a linguagem de programação **Java**.
 
-- O projeto está dividido em 2 partes: **Métodos** e **Classe e Objetos**
+- O projeto está dividido em 3 partes: *Encapsulamento*, **Métodos** e **Classe e Objetos**
+
+- Encapsulamento: Nessa pasta contém projetos em Java utilizando conceitos de Encapsulamento
+
+- Principais Projetos dessa pasta:
+
+- 🚗 Sistema de Gerenciamento de Carros
+    - [ProjetoCarro](https://github.com/gabrielhilins/POO-Java/tree/main/Encapsulamento/ProjetoCarro/src)
+        
+        - Resumo sobre o projeto: O código Java é um programa de gerenciamento de carros, permitindo ao usuário cadastrar, remover, listar e consultar informações sobre carros. Também oferece opções para acelerar e frear carros. O usuário interage com o programa através de um menu de opções até optar por sair.
 
 - Métodos: Nessa pasta contém programas em java, utilizando métodos e construtores
 
@@ -14,7 +23,7 @@
 
 - 🏦 Banco Digital Simples
 
-    - [AppBancoDigital.java](https://github.com/gabrielhilins/POO-OOP-Java/blob/main/Metodos/AppBancoDigital.java) e [ContaCorrente.java](https://github.com/gabrielhilins/POO-OOP-Java/blob/main/Metodos/ContaCorrente.java)
+    - [BancoDigital](https://github.com/gabrielhilins/POO-OOP-Java/blob/main/Metodos/BancoDigital)
 
         - **Requisitos**: Um **banco digital** deseja oferecer aos seus clientes uma experiência simplificada através de uma conta corrente que permita depósitos, saques, transferências e consulta de saldo. Para atender a essa necessidade, foi criada a classe ContaCorrente com os atributos numeroDaConta (String), saldo (double) e nomeDoTitular (String).
             - Métodos:
