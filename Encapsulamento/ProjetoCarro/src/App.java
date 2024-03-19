@@ -27,6 +27,7 @@ public class App {
             System.out.println("6) Frear um carro");
             System.out.println("7) Sair do programa");
     
+            System.out.print("Insira uma opcao:");
             int opcao = dado.nextInt();
             dado.nextLine();
     
@@ -69,7 +70,16 @@ public class App {
                     System.out.println("Informe a placa do carro que deseja consultar:");
                     String placaProcurada = dado.next();
     
-                    cadastro.consultarCarro(placaProcurada);
+                    Carro carroConsulta = cadastro.consultarCarro(placaProcurada);
+
+                    if (placaProcurada == null) {
+                        System.out.println("Carro nao encontrado!");
+                    } else {
+                        System.out.println("Dados do carro:");
+                        carroConsulta.exibirInfo();
+                    }
+
+                    
                     break;
                 case 5:
                     System.out.println("Informe a Placa do Carro que deseja Acelerar:");
